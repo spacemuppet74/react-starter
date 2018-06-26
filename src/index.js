@@ -5,4 +5,7 @@ const el = document.getElementById("root");
 
 import App from "./App";
 
+// Global CSS
+import "./index.css";
+
 ReactDOM.render(<App />, el);
