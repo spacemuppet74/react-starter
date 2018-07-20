@@ -10,7 +10,7 @@ const htmlWebpackPlugin = new HtmlWebpackPlugin({
 });
 
 const miniCSSExtractPlugin = new MiniCssExtractPlugin({
-  filename: "./styles/styles.css",
+  filename: "./css/styles.css",
   chunkFilename: "[id].css"
 });
 
@@ -62,7 +62,7 @@ module.exports = {
             loader: "file-loader",
             options: {
               name: "[name].[ext]",
-              outputPath: "styles/fonts/",
+              outputPath: "css/fonts/",
               publicPath: "./fonts"
             }
           }
