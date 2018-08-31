@@ -17,7 +17,7 @@ module.exports = {
   mode: "production",
   devtool: "cheap-module-eval-source-map",
   entry: {
-    bundle: ["babel-polyfill", "./src/index.js"]
+    bundle: ["babel-polyfill", "whatwg-fetch", "./src/index.js"]
   },
   output: {
     filename: "bundle.js",
